@@ -1,7 +1,7 @@
 local colors = {
   fg = "#ffb7f8",
   bg = "#0a0002",
-  alt_fg = "#0a0000",
+  alt_fg = "#8b92a8",
   alt_bg = "#190a15",
   dark = "#360808",
   accent = "#ee52c7",
@@ -10,7 +10,7 @@ local colors = {
   line = "#282C34",
   search_blue = "#083c5a",
   white = "#e0e9ff",
-  gray = "#bbd6e7",
+  gray = "#0a0000",
   dark_gray = "#8785d5",
   context = "#de8cff",
   light_gray = "#efb2dd",

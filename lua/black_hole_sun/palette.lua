@@ -1,5 +1,5 @@
 local colors = {
-  fg = "#ff75f2",
+  fg = "#ffb7f8",
   bg = "#0a0002",
   alt_fg = "#8b92a8",
   alt_bg = "#190a15",
@@ -25,7 +25,7 @@ local colors = {
   light_green = "#9cf796",
   red = "#f6034d",
   orange = "#ff5a1d",
-  salmon = "#F44747",
+  salmon = "#f45663",
   light_red = "#f95c9e",
   darkred = "#ad0023",
   yellow = "#fff912",

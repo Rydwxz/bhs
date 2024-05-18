@@ -348,7 +348,7 @@ theme.set_highlights = function()
   hl(0, "RainbowDelimiterOrange", { fg = c.orange, bg = 'NONE'})
   hl(0, "RainbowDelimiterGreen", { fg = c.green, bg = 'NONE'})
   hl(0, "RainbowDelimiterViolet", { fg = c.lightdark, bg = 'NONE'})
-  hl(0, "RainbowDelimiterCyan", { fg = c.dark, bg = 'NONE'})
+  hl(0, "RainbowDelimiterCyan", { fg = c.gray, bg = 'NONE'})
 end
 
 return theme

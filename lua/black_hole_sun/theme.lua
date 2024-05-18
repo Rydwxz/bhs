@@ -99,7 +99,7 @@ theme.set_highlights = function()
   hl(0, "Ignore", { fg = c.cyan, bg = c.bg, bold=true, })
   hl(0, "Todo", { fg = c.magenta, bg = c.bg, bold=true, })
   hl(0, "Error", { fg = c.error_red, bg = c.bg, bold=true, })
-  hl(0, "TabLine", { fg = c.light_gray, bg = c.line })
+  hl(0, "TabLine", { fg = c.darkred, bg = c.line })
   hl(0, "TabLineSel", { fg = c.white, bg = c.line })
   hl(0, "TabLineFill", { fg = c.line, bg = c.line })
 

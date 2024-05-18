@@ -158,7 +158,7 @@ theme.set_highlights = function()
   hl(0, "TSStructure", { fg = c.light_blue, bg = 'NONE' })
   hl(0, "TSStrong", { fg = c.blue, bg = 'NONE', bold=true, })
   hl(0, "TSQueryLinterError", { fg = c.warning_orange, bg = 'NONE' })
-  hl(0, "TreesitterContext", { fg = 'NONE', bg = c.tree_gray })
+  hl(0, "TreesitterContext", { fg = 'NONE', bg = c.line })
 
   -- markdown
   hl(0, "markdownBlockquote", { fg = c.green, bg = 'NONE' })
@@ -252,12 +252,12 @@ theme.set_highlights = function()
   hl(0, "TelescopeBorder", { fg = c.blue, bg = c.bg })
 
   -- NvimTree
-  hl(0, "NvimTreeFolderIcon", { fg = c.purple, bg = 'NONE' })
+  hl(0, "NvimTreeFolderIcon", { fg = c.lightpurple, bg = 'NONE' })
   hl(0, "NvimTreeIndentMarker", { fg = '#c5c5c5', bg = 'NONE' })
   hl(0, "NvimTreeNormal", { fg = c.light_gray, bg = c.alt_bg })
   hl(0, "NvimTreeVertSplit", { fg = c.alt_bg, bg = c.alt_bg })
-  hl(0, "NvimTreeFolderName", { fg = c.purple, bg = 'NONE' })
-  hl(0, "NvimTreeOpenedFolderName", { fg = c.purple, bg = 'NONE', bold=true, italic=true, })
+  hl(0, "NvimTreeFolderName", { fg = c.lightpurple, bg = 'NONE' })
+  hl(0, "NvimTreeOpenedFolderName", { fg = c.lightpurple, bg = 'NONE', bold=true, italic=true, })
   hl(0, "NvimTreeEmptyFolderName", { fg = c.gray, bg = 'NONE', italic=true, })
   hl(0, "NvimTreeGitIgnored", { fg = c.gray, bg = 'NONE', italic=true, })
   hl(0, "NvimTreeImageFile", { fg = c.light_gray, bg = 'NONE' })
@@ -272,7 +272,7 @@ theme.set_highlights = function()
   hl(0, "NvimTreeGitMerge", { fg = c.tree_sign_change, bg = 'NONE' })
   hl(0, "NvimTreeGitDirty", { fg = c.tree_sign_change, bg = 'NONE' })
   hl(0, "NvimTreeSymlink", { fg = c.cyan, bg = 'NONE' })
-  hl(0, "NvimTreeRootFolder", { fg = c.fg, bg = 'NONE', bold=true, })
+  hl(0, "NvimTreeRootFolder", { fg = c.purple, bg = 'NONE', bold=true, })
   hl(0, "NvimTreeExecFile", { fg = '#9FBA89', bg = 'NONE' })
 
   -- Buffer

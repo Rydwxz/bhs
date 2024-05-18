@@ -255,7 +255,6 @@ theme.set_highlights = function()
   hl(0, "LualineNB", { fg = c.gray, bg = c.dark })
   hl(0, "LualineNC", { fg = c.search_green, bg = c.dark })
 
-
   -- NvimTree
   hl(0, "NvimTreeFolderIcon", { fg = c.lightpurple, bg = 'NONE' })
   hl(0, "NvimTreeIndentMarker", { fg = '#c5c5c5', bg = 'NONE' })

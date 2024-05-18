@@ -252,8 +252,8 @@ theme.set_highlights = function()
   hl(0, "TelescopeBorder", { fg = c.blue, bg = c.bg })
 
   -- Lualine
-  hl(0, "LualineBB", { fg = c.gray, bg = c.dark })
-  hl(0, "LualineBF", { fg = c.search_green, bg = c.dark })
+  hl(0, "LualineNB", { fg = c.gray, bg = c.dark })
+  hl(0, "LualineNC", { fg = c.search_green, bg = c.dark })
 
 
   -- NvimTree

@@ -342,13 +342,13 @@ theme.set_highlights = function()
   hl(0, "CmpItemKindTypeParameter", { fg = c.red, bg = 'NONE' })
 
   -- RainbowDelimiters
-  hl(0, "RainbowDelimiterRed", { fg = c.fg, bg = 'NONE'})
-  hl(0, "RainbowDelimiterYellow", { fg = c.magenta, bg = 'NONE'})
-  hl(0, "RainbowDelimiterBlue", { fg = c.darkred, bg = 'NONE'})
-  hl(0, "RainbowDelimiterOrange", { fg = c.orange, bg = 'NONE'})
-  hl(0, "RainbowDelimiterGreen", { fg = c.green, bg = 'NONE'})
-  hl(0, "RainbowDelimiterViolet", { fg = c.lightdark, bg = 'NONE'})
-  hl(0, "RainbowDelimiterCyan", { fg = c.gray, bg = 'NONE'})
+  hl(0, "RainbowDelimiterRed", { fg = c.gray, bg = 'NONE'})
+  hl(0, "RainbowDelimiterYellow", { fg = c.fg, bg = 'NONE'})
+  hl(0, "RainbowDelimiterBlue", { fg = c.accent, bg = 'NONE'})
+  hl(0, "RainbowDelimiterOrange", { fg = c.magenta, bg = 'NONE'})
+  hl(0, "RainbowDelimiterGreen", { fg = c.error_red, bg = 'NONE'})
+  hl(0, "RainbowDelimiterViolet", { fg = c.darkred, bg = 'NONE'})
+  hl(0, "RainbowDelimiterCyan", { fg = c.lightdark, bg = 'NONE'})
 end
 
 return theme

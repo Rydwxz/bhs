@@ -342,13 +342,13 @@ theme.set_highlights = function()
   hl(0, "CmpItemKindTypeParameter", { fg = c.red, bg = 'NONE' })
 
   -- RainbowDelimiters
-  hl(0, "RainbowDelimiterRed", { fg = c.red, bg = 'NONE'})
-  hl(0, "RainbowDelimiterYellow", { fg = c.yellow, bg = 'NONE'})
-  hl(0, "RainbowDelimiterBlue", { fg = c.blue, bg = 'NONE'})
+  hl(0, "RainbowDelimiterRed", { fg = c.fg, bg = 'NONE'})
+  hl(0, "RainbowDelimiterYellow", { fg = c.magenta, bg = 'NONE'})
+  hl(0, "RainbowDelimiterBlue", { fg = c.darkred, bg = 'NONE'})
   hl(0, "RainbowDelimiterOrange", { fg = c.orange, bg = 'NONE'})
   hl(0, "RainbowDelimiterGreen", { fg = c.green, bg = 'NONE'})
-  hl(0, "RainbowDelimiterViolet", { fg = c.purple, bg = 'NONE'})
-  hl(0, "RainbowDelimiterCyan", { fg = c.vivid_blue, bg = 'NONE'})
+  hl(0, "RainbowDelimiterViolet", { fg = c.lightdark, bg = 'NONE'})
+  hl(0, "RainbowDelimiterCyan", { fg = c.dark, bg = 'NONE'})
 end
 
 return theme

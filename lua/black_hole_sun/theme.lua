@@ -99,7 +99,7 @@ theme.set_highlights = function()
   hl(0, "Ignore", { fg = c.cyan, bg = c.bg, bold=true, })
   hl(0, "Todo", { fg = c.magenta, bg = c.bg, bold=true, })
   hl(0, "Error", { fg = c.error_red, bg = c.bg, bold=true, })
-  hl(0, "TabLine", { fg = c.darkred, bg = c.line })
+  hl(0, "TabLine", { fg = c.light_gray, bg = c.line })
   hl(0, "TabLineSel", { fg = c.white, bg = c.line })
   hl(0, "TabLineFill", { fg = c.line, bg = c.line })
 
@@ -250,6 +250,11 @@ theme.set_highlights = function()
   hl(0, "TelescopeSelection", { fg = c.hint_blue, bg = 'NONE' })
   hl(0, "TelescopeMatching", { fg = c.info_yellow, bg = 'NONE', bold=true, })
   hl(0, "TelescopeBorder", { fg = c.blue, bg = c.bg })
+
+  -- Lualine
+  hl(0, "LualineBB", { fg = c.gray, bg = c.dark })
+  hl(0, "LualineBF", { fg = c.search_green, bg = c.dark })
+
 
   -- NvimTree
   hl(0, "NvimTreeFolderIcon", { fg = c.lightpurple, bg = 'NONE' })

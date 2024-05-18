@@ -344,10 +344,10 @@ theme.set_highlights = function()
   -- RainbowDelimiters
   hl(0, "RainbowDelimiterRed", { fg = c.gray, bg = 'NONE'})
   hl(0, "RainbowDelimiterYellow", { fg = c.fg, bg = 'NONE'})
-  hl(0, "RainbowDelimiterBlue", { fg = c.accent, bg = 'NONE'})
-  hl(0, "RainbowDelimiterOrange", { fg = c.magenta, bg = 'NONE'})
-  hl(0, "RainbowDelimiterGreen", { fg = c.error_red, bg = 'NONE'})
-  hl(0, "RainbowDelimiterViolet", { fg = c.darkred, bg = 'NONE'})
+  hl(0, "RainbowDelimiterBlue", { fg = c.star_orange, bg = 'NONE'})
+  hl(0, "RainbowDelimiterOrange", { fg = c.star_yellow, bg = 'NONE'})
+  hl(0, "RainbowDelimiterGreen", { fg = c.star_green, bg = 'NONE'})
+  hl(0, "RainbowDelimiterViolet", { fg = c.star_blue, bg = 'NONE'})
   hl(0, "RainbowDelimiterCyan", { fg = c.lightdark, bg = 'NONE'})
 end
 

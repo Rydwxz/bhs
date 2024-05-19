@@ -252,7 +252,7 @@ theme.set_highlights = function()
   hl(0, "TelescopeBorder", { fg = c.blue, bg = c.bg })
 
   -- Lualine
-  hl(0, 'LualineNA', { fg = c.noen, bg = c.dark })
+  hl(0, 'LualineNA', { fg = c.neon, bg = c.dark })
   hl(0, "LualineNB", { fg = c.search_green, bg = c.dark })
   hl(0, "LualineNC", { fg = c.gray, bg = c.dark })
   hl(0, 'LualineIA', { fg = c.neon, bg = c.noen })

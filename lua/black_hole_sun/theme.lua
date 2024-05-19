@@ -252,8 +252,24 @@ theme.set_highlights = function()
   hl(0, "TelescopeBorder", { fg = c.blue, bg = c.bg })
 
   -- Lualine
-  hl(0, "LualineNB", { fg = c.gray, bg = c.dark })
-  hl(0, "LualineNC", { fg = c.search_green, bg = c.dark })
+  hl(0, 'LualineNA', { fg = c.noen, bg = c.dark })
+  hl(0, "LualineNB", { fg = c.search_green, bg = c.dark })
+  hl(0, "LualineNC", { fg = c.gray, bg = c.dark })
+  hl(0, 'LualineIA', { fg = c.neon, bg = c.noen })
+  hl(0, "LualineIB", { fg = c.search_green, bg = c.noen })
+  hl(0, "LualineIC", { fg = c.gray, bg = c.dark })
+  hl(0, 'LualineVA', { fg = c.shellblue, bg = c.neongreen })
+  hl(0, "LualineVB", { fg = c.neongreen, bg = c.shellblue })
+  hl(0, "LualineVC", { fg = c.gray, bg = c.dark })
+  hl(0, 'LualineRA', { fg = c.noen, bg = c.dark })
+  hl(0, "LualineRB", { fg = c.search_green, bg = c.dark })
+  hl(0, "LualineRC", { fg = c.gray, bg = c.dark })
+  hl(0, 'LualineCA', { fg = c.noen, bg = c.darkblue })
+  hl(0, "LualineCB", { fg = c.search_green, bg = c.darkblue })
+  hl(0, "LualineCC", { fg = c.gray, bg = c.dark })
+  hl(0, 'LualineEA', { fg = c.brightgreen, bg = c.inactivegray })
+  hl(0, "LualineEB", { fg = c.brightgreen, bg = c.inactivegray })
+  hl(0, "LualineEC", { fg = c.brightgreen, bg = c.inactivegray })
 
   -- NvimTree
   hl(0, "NvimTreeFolderIcon", { fg = c.lightpurple, bg = 'NONE' })
@@ -353,6 +369,7 @@ theme.set_highlights = function()
   hl(0, "RainbowDelimiterGreen", { fg = c.star_green, bg = 'NONE'})
   hl(0, "RainbowDelimiterViolet", { fg = c.star_blue, bg = 'NONE'})
   hl(0, "RainbowDelimiterCyan", { fg = c.star_purple, bg = 'NONE'})
+
 end
 
 return theme

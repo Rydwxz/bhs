@@ -246,7 +246,7 @@ theme.set_highlights = function()
   hl(0, "LspCodeLens", { fg = c.context, bg = 'NONE', italic=true, })
   hl(0, "LspCodeLensSeparator", { fg = c.context, bg = 'NONE', italic=true, })
 
-  -- Lualine
+  -- Rualine
   hl(0, 'LualineNA', { fg = c.neon, bg = c.dark })
   hl(0, "LualineNB", { fg = c.star_yellow, bg = c.dark })
   hl(0, "LualineNC", { fg = c.fg, bg = c.dark })
@@ -369,6 +369,9 @@ theme.set_highlights = function()
   hl(0, "RainbowDelimiterGreen", { fg = c.star_green, bg = 'NONE'})
   hl(0, "RainbowDelimiterViolet", { fg = c.star_blue, bg = 'NONE'})
   hl(0, "RainbowDelimiterCyan", { fg = c.star_purple, bg = 'NONE'})
+
+	--Window Separator
+	hl(0, "WinSep", { fg = c.yellow, bg = c.yellow })
 
 end
 

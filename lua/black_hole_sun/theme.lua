@@ -246,7 +246,7 @@ theme.set_highlights = function()
   hl(0, "LspCodeLens", { fg = c.context, bg = 'NONE', italic=true, })
   hl(0, "LspCodeLensSeparator", { fg = c.context, bg = 'NONE', italic=true, })
 
-  -- Rualine
+  -- Lualine
   hl(0, 'LualineNA', { fg = c.neon, bg = c.dark })
   hl(0, "LualineNB", { fg = c.star_yellow, bg = c.dark })
   hl(0, "LualineNC", { fg = c.fg, bg = c.dark })
@@ -262,9 +262,9 @@ theme.set_highlights = function()
   hl(0, 'LualineCA', { fg = c.neongreen, bg = c.dark })
   hl(0, "LualineCB", { fg = c.star_green, bg = c.dark })
   hl(0, "LualineCC", { fg = c.fg, bg = c.dark })
-  hl(0, 'LualineEA', { fg = c.bg, bg = c.dark })
-  hl(0, "LualineEB", { fg = c.bg, bg = c.dark })
-  hl(0, "LualineEC", { fg = c.bg, bg = c.dark })
+  hl(0, 'LualineEA', { fg = c.lightdark, bg = c.dark })
+  hl(0, "LualineEB", { fg = c.lightdark, bg = c.dark })
+  hl(0, "LualineEC", { fg = c.lightdark, bg = c.dark })
 
   -- Telescope
   hl(0, "TelescopeSelection", { fg = c.hint_blue, bg = 'NONE' })

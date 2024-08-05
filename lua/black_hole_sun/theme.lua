@@ -1,4 +1,3 @@
-
 local c = require('black_hole_sun.palette')
 
 local hl = vim.api.nvim_set_hl
@@ -134,6 +133,7 @@ theme.set_highlights = function()
   hl(0, "TSVariable", { fg = c.red, bg = 'NONE' })
   hl(0, "TSVariableBuiltin", { fg = c.red, bg = 'NONE' })
   hl(0, "TSProperty", { fg = c.red, bg = 'NONE' })
+  hl(0, "TSIdentifier", { fg = c.red, bg = 'NONE' })
   hl(0, "TSField", { fg = c.fg, bg = 'NONE' })
   hl(0, "TSParameter", { fg = c.red, bg = 'NONE' })
   hl(0, "TSParameterReference", { fg = c.red, bg = 'NONE' })

@@ -159,7 +159,7 @@ theme.set_highlights = function()
   hl(0, "TSStructure", { fg = c.light_red, bg = 'NONE' })
   hl(0, "TSStrong", { fg = c.blue, bg = 'NONE', bold=true, })
   hl(0, "TSQueryLinterError", { fg = c.warning_orange, bg = 'NONE' })
-  hl(0, "TreesitterContext", { fg = 'NONE', bg = c.line })
+  hl(0, "TreesitterContext", { fg = 'NONE', bg = c.lightdark })
 
   -- markdown
   hl(0, "markdownBlockquote", { fg = c.green, bg = 'NONE' })

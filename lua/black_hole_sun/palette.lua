@@ -5,7 +5,7 @@ local colors = {
   alt_bg = "#0e060c",
   dark = "#360808",
   accent = "#ee52c7",
-  popup_back = "#000000",
+  black = "#000000",
   search_green = "#9CFFD3",
   line = "#46102a",
   search_yellow = "#DFFF00",
@@ -59,7 +59,7 @@ local colors = {
   ui_orange = "#E8AB53",
   ui_purple = "#B180D7",
 -- from lualine
-	  black        = '#202020',
+	  ll_black        = '#202020',
 	  neon         = '#DFFF00',
 	  neongreen        = '#00D700',
 	  funkpurple       = '#5F005F',

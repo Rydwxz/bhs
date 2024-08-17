@@ -364,12 +364,12 @@ theme.set_highlights = function()
 
   -- RainbowDelimiters
   hl(0, "RainbowDelimiterRed", { fg = c.white, bg = 'NONE'})
-  hl(0, "RainbowDelimiterYellow", { fg = c.red, bg = 'NONE'})
-  hl(0, "RainbowDelimiterBlue", { fg = c.orange, bg = 'NONE'})
-  hl(0, "RainbowDelimiterOrange", { fg = c.yellow, bg = 'NONE'})
-  hl(0, "RainbowDelimiterGreen", { fg = c.neongreen, bg = 'NONE'})
-  hl(0, "RainbowDelimiterViolet", { fg = c.blue, bg = 'NONE'})
-  hl(0, "RainbowDelimiterCyan", { fg = c.purple, bg = 'NONE'})
+  hl(0, "RainbowDelimiterYellow", { fg = c.fg, bg = 'NONE'})
+  hl(0, "RainbowDelimiterBlue", { fg = c.star_orange, bg = 'NONE'})
+  hl(0, "RainbowDelimiterOrange", { fg = c.star_yellow, bg = 'NONE'})
+  hl(0, "RainbowDelimiterGreen", { fg = c.star_green, bg = 'NONE'})
+  hl(0, "RainbowDelimiterViolet", { fg = c.star_blue, bg = 'NONE'})
+  hl(0, "RainbowDelimiterCyan", { fg = c.star_purple, bg = 'NONE'})
 
 	--Window Separator
 	hl(0, "WinSep", { fg = c.yellow, bg = c.yellow })

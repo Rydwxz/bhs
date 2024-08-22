@@ -38,6 +38,7 @@ local colors = {
   star_purple = "#b8a9ff",
   lightpurple = "#9586f4",
   purple  = "#7037ff",
+  rose = "#fb065d",
   magenta = "#f542fc",
   cursor_fg = "#db0000",
   cursor_bg = "#0a0000",

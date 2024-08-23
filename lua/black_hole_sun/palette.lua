@@ -25,7 +25,6 @@ local colors = {
   hot_pink = "#ff38a3",
   pink = "#ef4288",
   rose = "#ff2ba7",
-  -- light_red = "#f95c99",
   light_red = "#f95c9e",
   salmon = "#f45663",
   red = "#ef0a25",

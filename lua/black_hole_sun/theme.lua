@@ -161,8 +161,9 @@ theme.set_highlights = function()
   hl(0, "TSQueryLinterError", { fg = c.warning_orange, bg = 'NONE' })
   hl(0, "TreesitterContext", { fg = 'NONE', bg = c.dark })
 
-  --additional
+  --Rust
   hl(0, "@lsp.type.macro.rust", { fg = c.orange, bg = 'NONE' })
+  hl(0, "@variable.member.rust", { fg = c.magenta, bg = 'NONE' })
 
 
   -- markdown

@@ -163,6 +163,7 @@ theme.set_highlights = function()
 
   --Rust
   hl(0, "@lsp.type.macro.rust", { fg = c.orange, bg = 'NONE' })
+  hl(0, "@lsp.type.namespace.rust", { fg = c.purple, bg = 'NONE' })
   hl(0, "@function.macro.rust", { fg = c.orange, bg = 'NONE' })
   hl(0, "@variable.member.rust", { fg = c.magenta, bg = 'NONE' })
 

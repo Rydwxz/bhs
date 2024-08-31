@@ -55,7 +55,7 @@ theme.set_highlights = function()
   hl(0, "Title", { fg = c.cyan, bg = 'NONE', bold=true, })
   hl(0, "ErrorMsg", { fg = c.error_red, bg = c.bg, bold=true, })
   hl(0, "Search", { fg = c.neongreen, bg = c.black })
-  hl(0, "IncSearch", { fg = c.search_green, bg = c.bg })
+  hl(0, "IncSearch", { fg = c.star_green, bg = c.bg })
   hl(0, "Substitute", { fg = c.black, bg = c.neongreen })
   hl(0, "MoreMsg", { fg = c.orange, bg = 'NONE' })
   hl(0, "Question", { fg = c.orange, bg = 'NONE' })
@@ -167,6 +167,8 @@ theme.set_highlights = function()
   hl(0, "@function.macro.rust", { fg = c.orange, bg = 'NONE' })
   hl(0, "@variable.member.rust", { fg = c.magenta, bg = 'NONE' })
 
+  --JavaScript
+  hl(0, "@lsp.type.namespace.javascript", { fg = c.rose, bg = 'NONE' })
 
   -- markdown
   hl(0, "markdownBlockquote", { fg = c.green, bg = 'NONE' })

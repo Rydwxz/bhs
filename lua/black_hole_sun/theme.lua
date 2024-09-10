@@ -279,7 +279,8 @@ theme.set_highlights = function()
   -- Telescope
   hl(0, "TelescopeSelection", { fg = c.hint_blue, bg = 'NONE' })
   hl(0, "TelescopeMatching", { fg = c.info_yellow, bg = 'NONE', bold=true, })
-  hl(0, "TelescopeBorder", { fg = c.cyan, bg = c.bg })
+  hl(0, "TelescopeBorder", { fg = c.seafoam, bg = c.bg })
+  hl(0, "TelescopeResultsLineNr", { fg = c.darkred, bg = c.bg })
 
   -- NvimTree
   hl(0, "NvimTreeFolderIcon", { fg = c.light_purple, bg = 'NONE' })

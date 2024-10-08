@@ -257,6 +257,8 @@ theme.set_highlights = function()
   hl(0, "LspCodeLens", { fg = c.context, bg = 'NONE', italic=true, })
   hl(0, "LspCodeLensSeparator", { fg = c.context, bg = 'NONE', italic=true, })
 
+  hl(0, "LspInlayHint", { fg = c.lightdark, bg = 'NONE', })
+
   -- Lualine
   hl(0, 'LualineNA', { fg = c.neon, bg = c.dark })
   hl(0, "LualineNB", { fg = c.star_yellow, bg = c.dark })

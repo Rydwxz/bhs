@@ -166,10 +166,19 @@ theme.set_highlights = function()
   hl(0, "@lsp.type.namespace.rust", { fg = c.royal, bg = 'NONE' })
   hl(0, "@function.macro.rust", { fg = c.orange, bg = 'NONE' })
   hl(0, "@variable.member.rust", { fg = c.magenta, bg = 'NONE' })
-  hl(0, "@constant.builtin.rust", { fg = c.orange, bg = 'NONE' })
+  hl(0, "@constant.builtin.rust", { fg = c.royal, bg = 'NONE' })
 
   --JavaScript
   hl(0, "@lsp.type.namespace.javascript", { fg = c.rose, bg = 'NONE' })
+
+  --Haskell
+  hl(0, "@constructor.haskell", { fg = c.royal, bg = 'NONE' })
+  hl(0, "@variable.member.haskell", { fg = c.magenta, bg = 'NONE' })
+  hl(0, "@function.haskell", { fg = c.orange, bg = 'NONE' })
+  hl(0, "@operator.haskell", { fg = c.cyan, bg = 'NONE' })
+  hl(0, "@keyword.haskell", { fg = c.seafoam, bg = 'NONE' })
+  hl(0, "@keyword.conditional.haskell", { fg = c.seafoam, bg = 'NONE' })
+  hl(0, "@module.haskell", { fg = c.royal, bg = 'NONE' })
 
   -- markdown
   hl(0, "markdownBlockquote", { fg = c.green, bg = 'NONE' })

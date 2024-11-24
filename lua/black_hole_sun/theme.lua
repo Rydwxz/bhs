@@ -97,7 +97,7 @@ theme.set_highlights = function()
   hl(0, "Bold", { fg = 'NONE', bg = 'NONE', bold=true, })
   hl(0, "Italic", { fg = 'NONE', bg = 'NONE', italic=true, })
   hl(0, "Ignore", { fg = c.cyan, bg = c.bg, bold=true, })
-  hl(0, "Todo", { fg = c.magenta, bg = c.bg, bold=true, })
+  hl(0, "Todo", { fg = c.light_orange, bg = c.bg, bold=true, })
   hl(0, "Error", { fg = c.error_red, bg = c.bg, bold=true, })
   hl(0, "TabLine", { fg = c.light_gray, bg = c.line })
   hl(0, "TabLineSel", { fg = c.white, bg = c.line })
@@ -162,11 +162,14 @@ theme.set_highlights = function()
   hl(0, "TreesitterContext", { fg = 'NONE', bg = c.dark })
 
   --Rust
+  hl(0, "@lsp.type.parameter.rust", { fg = c.seafoam, bg = 'NONE' })
+  hl(0, "@variable.parameter.rust", { fg = c.seafoam, bg = 'NONE' })
   hl(0, "@lsp.type.macro.rust", { fg = c.orange, bg = 'NONE' })
   hl(0, "@lsp.type.namespace.rust", { fg = c.royal, bg = 'NONE' })
   hl(0, "@function.macro.rust", { fg = c.orange, bg = 'NONE' })
   hl(0, "@variable.member.rust", { fg = c.magenta, bg = 'NONE' })
   hl(0, "@constant.builtin.rust", { fg = c.royal, bg = 'NONE' })
+  hl(0, "@type.builtin.rust", { fg = c.cyan, bg = 'NONE' })
 
   --JavaScript
   hl(0, "@lsp.type.namespace.javascript", { fg = c.rose, bg = 'NONE' })

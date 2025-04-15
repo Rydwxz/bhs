@@ -169,6 +169,7 @@ theme.set_highlights = function()
   hl(0, "@function.macro.rust", { fg = c.orange, bg = 'NONE' })
   hl(0, "@variable.member.rust", { fg = c.magenta, bg = 'NONE' })
   hl(0, "@constant.builtin.rust", { fg = c.royal, bg = 'NONE' })
+  hl(0, "@text.danger.rust", { fg = c.brite, bg = 'NONE' })
 
   --JavaScript
   hl(0, "@lsp.type.namespace.javascript", { fg = c.rose, bg = 'NONE' })

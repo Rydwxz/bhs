@@ -13,4 +13,4 @@ https://github.com/nyoom-engineering/oxocarbon.nvim
 Modus-Vivendi Emacs Theme
 https://protesilaos.com/emacs/modus-themes-pictures
 
-I apologize, but I made this theme for myself. It does not conform to any accesibility standards and  makes heavy use of various shades of red.
+I apologize, but I made this theme for myself. It does not conform to any accessibility standards and  makes heavy use of various shades of red.

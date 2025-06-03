@@ -1,5 +1,7 @@
 Black Hole Sun -- Nvim Color theme
 
+![Screenshot](/scrn.png?raw=true)
+
 Partially inspired by:
 
 Dark Horizon from VSC

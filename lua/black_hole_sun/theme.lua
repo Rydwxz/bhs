@@ -272,6 +272,11 @@ theme.set_highlights = function()
 
   hl(0, "LspInlayHint", { fg = c.lightdark, bg = 'NONE', })
 
+  -- Lua
+  hl(0, "@lsp.type.parameter.lua", { fg = c.altred, bg = 'NONE' })
+  hl(0, "@variable.parameter.lua", { fg = c.altred, bg = 'NONE' })
+
+
   -- Lualine
   hl(0, 'LualineNA', { fg = c.neon, bg = c.dark })
   hl(0, "LualineNB", { fg = c.star_yellow, bg = c.dark })

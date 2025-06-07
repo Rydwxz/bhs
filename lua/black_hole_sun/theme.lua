@@ -102,6 +102,11 @@ theme.set_highlights = function()
   hl(0, "TabLineSel", { fg = c.white, bg = c.line })
   hl(0, "TabLineFill", { fg = c.line, bg = c.line })
 
+  -- C
+  hl(0, "@variable.parameter.c", { fg = c.altred, bg = 'NONE' })
+
+
+
   -- Treesitter
   hl(0, "TSComment", { link = 'Comment' })
   hl(0, "TSAnnotation", { fg = c.cyan, bg = 'NONE' })

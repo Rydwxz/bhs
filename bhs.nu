@@ -27,6 +27,7 @@ let magenta          = "#b94fff"
 let rose             = "#ff53ba"
 let light_red        = "#f85d75"
 let red              = "#e6041e"
+let chunk            = '#f9003f'
 let altred           = "#e00098"
 let darkred          = "#ad0023"
 let lightdark        = "#7f0800"
